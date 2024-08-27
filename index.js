@@ -8,7 +8,7 @@ app.use(cors());
 app.get("/", async (req, res) => {
   try {
     const response = await axios.get(
-      "https://lereacteur-bootcamp-api.herokuapp.com/api/deliveroo/menu/paris/3eme-temple/sub-arc-subway-rambuteau?day=today&geohash=u09wj8rk5bqr&time=ASAP",
+      "https://lereacteur-bootcamp-api.herokuapp.com/api/deliveroo/menu/Paris/villemomble-gagny/starsmash-by-amixem-villemomble?day=today&geohash=u09vfh98fpkt&time=ASAP",
       {
         headers: {
           Authorization: `Bearer ${process.env.DELIVEROO_API_KEY}`,
